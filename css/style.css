@@ -6,3 +6,27 @@
 *{font-family: "Touche W03 Bold.ttf"}
 /*//// Don't forget to sign your code ////*/
 
+#what-we-do h5{
+    text-align: center;
+    margin: 4% auto 0.7%;
+    font-size: 0.6em;
+    border: 0.1em solid darkgoldenrod;
+    color: darkgoldenrod;
+    max-width: 6em;
+    padding: 0.7em 0.7em;
+}
+#what-we-do h3{
+    text-align: center;
+    margin: 2% auto;
+    padding: 1%;
+    margin: 0.1% auto;
+}
+
+#what-we-do p{
+    text-align: center;
+    margin: 2% auto;
+    padding: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 40em;
+    margin: 0 auto;
+}
