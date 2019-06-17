@@ -1,4 +1,8 @@
 /*////// here's our css rules will go  //////*/
-
+@font-face {
+    font-family: "Touche W03 Bold.ttf";
+    src: url(../fonts/Touche\ W03\ Bold.ttf);
+}
+*{font-family: "Touche W03 Bold.ttf"}
 /*//// Don't forget to sign your code ////*/
 
