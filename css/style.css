@@ -6,6 +6,8 @@
 *{font-family: "Touche W03 Bold.ttf"}
 /*//// Don't forget to sign your code ////*/
 
+
+/*////// Start of what-we-do-section style rules by Rabie //////*/
 #what-we-do h5{
     text-align: center;
     margin: 4% auto 0.7%;
@@ -30,3 +32,38 @@
     max-width: 40em;
     margin: 0 auto;
 }
+#what-we-do .row{
+    margin-top: 5%; 
+}
+#what-we-do-left img,#what-we-do-right img{
+    max-width: 6em;
+}
+#what-we-do-left h4,#what-we-do-right h4{
+    font-size: 105%;
+    
+}
+#what-we-do-left p,#what-we-do-right p{
+    font-size: 105%;
+}
+#what-we-do-left h4,#what-we-do-left p{
+    text-align: right;
+    max-width: 100%;
+}
+#what-we-do-right h4,#what-we-do-right p{
+    text-align: left;
+    max-width: 100%;
+}
+#what-we-do-left img{
+    float: right;
+}
+#what-we-do-right img{
+    float: left;
+}
+#what-we-do-center img{
+    margin: 0 0 0 10%;
+}
+#what-we-do-right,#what-we-do-left{
+    margin: auto;
+}
+
+/*////// End of what-we-do-section style rules by Rabie //////*/
