@@ -32,18 +32,21 @@
     max-width: 40em;
     margin: 0 auto;
 }
+
 #what-we-do .row{
     margin-top: 5%; 
 }
+
 #what-we-do-left img,#what-we-do-right img{
-    max-width: 6em;
+    max-width: 4em;
+    margin: 0 5% 10.5% 5%;
 }
 #what-we-do-left h4,#what-we-do-right h4{
     font-size: 105%;
     
 }
 #what-we-do-left p,#what-we-do-right p{
-    font-size: 105%;
+    font-size: 90% ;
 }
 #what-we-do-left h4,#what-we-do-left p{
     text-align: right;
@@ -60,10 +63,15 @@
     float: left;
 }
 #what-we-do-center img{
-    margin: 0 0 0 10%;
+    margin: 6% 0 6% 10%;
 }
 #what-we-do-right,#what-we-do-left{
     margin: auto;
 }
-
+#what-we-do-right div,#what-we-do-left div{
+    margin: 8% auto;
+}
+.rel-img{
+    position: relative;
+}
 /*////// End of what-we-do-section style rules by Rabie //////*/
