@@ -6,3 +6,8 @@
 *{font-family: "Touche W03 Bold.ttf"}
 /*//// Don't forget to sign your code ////*/
 
+/* Mohamad's styling starts here */
+.flex-icon {
+    display: flex;
+    justify-content: space-around;
+}
