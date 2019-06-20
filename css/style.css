@@ -7,13 +7,7 @@
 /*//// Don't forget to sign your code ////*/
 
 /* Mohamad's styling starts here */
-div.cont {
-    background: url(../images/img1.jpg) center top no-repeat;
-    max-width: 100%;
-
-
-}
-
-.cont div {
-    height: 100vh;
+.flex-icon {
+    display: flex;
+    justify-content: space-around;
 }
