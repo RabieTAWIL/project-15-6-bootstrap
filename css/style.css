@@ -3,7 +3,7 @@
     font-family: "Touche W03 Bold.ttf";
     src: url(../fonts/Touche\ W03\ Bold.ttf);
 }
-*{font-family: "Touche W03 Bold.ttf"}
+*{font-family: "Touche W03 Bold.ttf";}
 /*//// Don't forget to sign your code ////*/
 
 
@@ -75,3 +75,92 @@
     position: relative;
 }
 /*////// End of what-we-do-section style rules by Rabie //////*/
+
+/*//// Start of price table section by Rabie ///*/
+
+#pricing-section{
+    background-image: url(../images/priceTable.png);
+    background-position-y: 15%;
+    background-repeat: no-repeat;
+}
+#pricing-section h5{
+    text-align: center;
+    margin: 4% 0 2%;
+    font-size: 0.6em;
+    border: 0.1em solid #fe9603;
+    color: #fe9603;
+    max-width: 9em;
+    padding: 0.7em 0.7em;
+}
+
+#pricing-section p{
+    margin: 4% auto;
+}
+
+/*//// Switch Buttun class ////*/
+
+/* The switch - the box around the slider */
+
+/* Hide default HTML checkbox */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 36px;
+    margin: auto 2%;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fe9603;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    border-radius: 10%; 
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 28px;
+    width: 28px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    border-radius: 20%;
+}
+
+input:checked + .slider {
+    background-color: #fe9603;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #fe9603;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+/*//End of the Switch button//*/
+.BG-C{
+    background-color: #fe9603;
+}
+
+
+/*//// End of pricing table section Rabie///*/
